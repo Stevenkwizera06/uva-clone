@@ -104,7 +104,7 @@ export default function Navbar() {
       <div
         className={`h-[70px] ${
           !scrolled && "sm:h-[84px]"
-        } duration-200 bg-white shadow-menu z-20 relative`}
+        } duration-200 bg-white shadow-nav z-20 relative`}
       >
         <div
           className={`flex h-[70px] ${
@@ -182,7 +182,7 @@ export default function Navbar() {
       </div>
 
       <div
-        className={`lg:hidden  shadow-menu bg-[#F5F5F5] ${
+        className={`lg:hidden  shadow-nav bg-[#F5F5F5] ${
           scrolled && "absolute left-0 right-0 -top-[54px]"
         } duration-500 transition-all`}
       >
@@ -194,7 +194,7 @@ export default function Navbar() {
                   {el.text}
                 </div>
                 {!!el.links.length && (
-                  <div className="bg-[#F5F5F5] px-5 pt-3 pb-4 absolute z-20 bottom-0 translate-y-full -translate-x-5 shadow-hover w-[300px] hidden group-hover:flex  duration-150 delay-150 flex-col">
+                  <div className="bg-[#F5F5F5] px-5 pt-3 pb-4 absolute z-20 bottom-0 translate-y-full -translate-x-5 shadow-hovering w-[300px] hidden group-hover:flex  duration-150 delay-150 flex-col">
                     {el.links.map((item, i) => {
                       return (
                         <Link

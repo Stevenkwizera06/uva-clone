@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/jsx-key */
 
 import localFont from "@next/font/local";
@@ -163,7 +164,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <footer className="bg-[#1F1D20] md:px-3 sm:hidden pt-8 pb-14 border-b border-[#d6d6d6]">
+        <div className="bg-[#1F1D20] md:px-3 sm:hidden pt-8 pb-14 border-b border-[#d6d6d6]">
           <div className="max-w-[87.5rem] mx-auto ">
             <div className="">
              
@@ -245,7 +246,7 @@ export default function Footer() {
               })}
             </div>
           </div>
-        </footer>
+        </div>
       </div>
       <section className="py-6 bg-[#1F1D20] md:px-3">
         <div className="max-w-[87.5rem] mx-auto md:flex-col flex justify-between ">

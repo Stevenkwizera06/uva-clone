@@ -6,7 +6,6 @@ import Image from "next/image";
 function Current() {
   return (
     <>
-      {/* section with three grids */}
       <section className="pb-20 md:px-2">
         <div className="group:max-w-[87.5rem] mx-auto ml-3 sm:ml-0">
           <div className="">

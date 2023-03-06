@@ -7,7 +7,6 @@ import Image from "next/image";
 function News() {
   return (
     <>
-      {/* section with 4 grids */}
       <section className="bg-[#E6E6E6] pb-20 md:px-3">
         <div className="max-w-[87.5rem] mx-auto ml-3 sm:ml-0">
           <div className="">

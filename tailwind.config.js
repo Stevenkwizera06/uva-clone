@@ -13,9 +13,11 @@ module.exports = {
       boxShadow: {
         "3xl": "0 10px 20px rgb(0 0 0 / 15%), 0 5px 15px rgb(0 0 0 / 25%)",
         "5xl": "0px 13px 17px -5px rgba(90,87,87,0.56)",
+        nav: "0 0 10px rgb(0 0 0 / 15%)",
+        hovering: "0 4px 4px rgb(0 0 0 / 15%)",
       },
     },
-    
+
     screens: {
       xl: { max: "1279px" },
       // => @media (max-width: 1279px) { ... }
