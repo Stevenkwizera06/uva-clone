@@ -1,6 +1,6 @@
 import React from 'react'
 import Amsterdam from "@/src/section/Amsterdam";
-import Navbar from "@/src/section/Navbar";
+import Navbar from "@/src/components/Navbar";
 import Hero from '@/src/section/Hero';
 import Current from '@/src/section/Current';
 import News from '@/src/section/News';
@@ -12,7 +12,7 @@ function Home() {
   return (
     <>
       
-      {/* <Navbar /> */}
+      <Navbar />
       <Amsterdam />
       <Hero />
       <Current />
