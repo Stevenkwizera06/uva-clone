@@ -6,6 +6,7 @@ import Current from '@/src/section/Current';
 import News from '@/src/section/News';
 import GotTo from '@/src/section/GoTo';
 import Footer from '@/src/components/Footer';
+import Arrow from '@/src/section/Arrow';
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
       <Hero />
       <Current />
       <News />
+      {/* <Arrow /> */}
       <GotTo />
       <Footer />
     </>

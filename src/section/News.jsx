@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 
+
 function News() {
   return (
     <>
@@ -8,9 +9,7 @@ function News() {
       <section className="bg-[#E6E6E6] pb-20 md:px-3">
         <div className="max-w-[87.5rem] mx-auto ml-3 sm:ml-0">
           <div className="">
-            <p className={`text-2xl pt-16 pb-12 font-bold`}>
-              News
-            </p>
+            <p className={`text-2xl pt-16 pb-12 font-bold`}>News</p>
           </div>
           <div className="grid grid-cols-4 md:grid-cols-1 gap-6">
             {[

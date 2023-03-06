@@ -33,7 +33,7 @@ function Current() {
               },
             ].map((value, el) => {
               return (
-                <div className="hover:shadow-5xl  duration-300 border-red-800 ">
+                <div className="hover:shadow-5xl  duration-300 border-red-800 group  cursor-pointer">
                   <div>
                     <img
                       className="w-full h-48 object-cover  hover: object-center aspect-video"
@@ -42,7 +42,11 @@ function Current() {
                     />
                   </div>
                   <div className="border border-gray-200 px-5 py-3 space-y-3 flex flex-col h-40">
-                    <p className={`text-xl  cursor-pointer`}>{value.link}</p>
+                    <p
+                      className={`text-xl  cursor-pointer text-[1.5rem] leading-[1.725rem] font-semibold text-[#1f1d21] group-hover:text-[#bd0032] group-hover:underline`}
+                    >
+                      {value.link}
+                    </p>
                     <p className="">{value.sub}</p>
                   </div>
                 </div>

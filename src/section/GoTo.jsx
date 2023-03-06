@@ -1,10 +1,9 @@
 import React from "react";
-import Image from "next/image";
 
  function GotTo() {
   return (
     <>
-      {/* section with 8 grids */}
+      
       <section className="bg-white pb-20 md:px-3">
         <div className="max-w-[87.5rem] mx-auto ml-3 sm:ml-0">
           <div className="">
@@ -22,10 +21,10 @@ import Image from "next/image";
               { title: "Student website", link: "student" },
             ].map((value, el) => {
               return (
-                <div className="card">
-                  <div className="border pb-10 border-gray-200 bg-white px-5 py-3 space-y-3">
+                <div className="">
+                  <div className=" bg-white px-5 py-3 space-y-3 border border-[#e6e6e6] group hover:shadow-3xl cursor-pointer">
                     <p
-                      className={`text-[1.25rem] font-bold hover:text-red-500 cursor-pointer`}
+                      className={`hover:text-red-500 cursor-pointer text-[1.5rem] leading-[1.15rem] font-semibold text-[#1f1d21] group-hover:text-[#bd0032] group-hover:underline group-hover:underline-offset-4 p-4 pb-8`}
                     >
                       {value.title}
                     </p>

@@ -38,7 +38,7 @@ export default function Footer() {
     >
       <div className="px-[0.625rem] xl:px-2 mx-auto container max-w-none xl:max-w-[87.5rem]">
         <div className="pt-9 pb-12">
-          <Image src={logo} className="w-[19.8125rem] h-[2.1875rem]" />
+          <Image src={logo} alt="/" className="w-[19.8125rem] h-[2.1875rem]" />
         </div>
         <div className="flex gap-2 flex-col hidden sm:block">
           <div>
