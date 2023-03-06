@@ -21,6 +21,7 @@ import React from "react";
               { title: "Student website", link: "student" },
             ].map((value, el) => {
               return (
+                // eslint-disable-next-line react/jsx-key
                 <div className="">
                   <div className=" bg-white px-5 py-3 space-y-3 border border-[#e6e6e6] group hover:shadow-3xl cursor-pointer">
                     <p

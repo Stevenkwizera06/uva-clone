@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable react/jsx-key */
 import Image from "next/image";
 
 
@@ -31,7 +33,7 @@ function News() {
                     <p
                       className={`font-bold text-xl hover:text-red-500 cursor-pointer`}
                     >
-                      Forever chemical' PFAS in Dutch drinking water
+                      Forever chemicals PFAS in Dutch drinking water
                     </p>
                     <p>
                       The surface of Teflon - the non-stick coat- ing in your

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Image from "next/image";
 
@@ -33,6 +34,7 @@ function Current() {
               },
             ].map((value, el) => {
               return (
+                // eslint-disable-next-line react/jsx-key
                 <div className="hover:shadow-5xl  duration-300 border-red-800 group  cursor-pointer">
                   <div>
                     <img

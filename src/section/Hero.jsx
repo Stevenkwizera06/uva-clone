@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 import Image from "next/image";
 import { BsArrowRight } from "react-icons/bs";
 
